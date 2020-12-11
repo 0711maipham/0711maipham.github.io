@@ -1,0 +1,77 @@
+body {
+    background: url(./img/indexbackground.jpg)no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+    font-size: 75px;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 24px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+p {
+    font-size: 15px;
+    color: #5c5c5c;
+    font-style: italic;
+}
+
+.main-title {
+    text-align: center;
+    color: #fff;
+    margin: auto;
+    padding-top: 10%;
+}
+
+.grid {
+    margin-top: 15px;
+    padding: 0 10%;
+}
+
+.entry {
+    background-color: rgba(255, 255, 255, 1);
+    margin: 10px;
+    border-radius: 0 8px 0 8px;
+    display: block;
+    padding: 25px;
+    opacity: .9;
+    transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.empty-entry {
+    margin: 10px;
+    border-radius: 0 8px 0 8px;
+    display: block;
+    padding: 25px;
+    border: 1px solid #fff;
+    min-height: 134px;
+}
+
+.entry:hover {
+    opacity: 1;
+}
+
+a {
+    color: #000
+}
+
+a:hover {
+    text-decoration: none;
+}

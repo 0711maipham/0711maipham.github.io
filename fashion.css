@@ -1,0 +1,216 @@
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+  
+  body {
+    min-height: 100%;
+    min-width: 100%;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+  }
+
+.main-container {
+    margin: 0 10%;
+}
+
+.row {
+    text-align: center;
+}
+
+.header-1 {
+    color: #c793ad;
+}
+
+.heading {
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 75px;
+    font-weight: 300;
+}
+
+/* .nav-item {
+    width: 120px;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+} */
+
+.navbar {
+    width: 100%;
+    background-color: #1f1f1f;
+}
+
+.nav-item {
+    margin-right: 3%;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    color: #c793ad !important;
+    text-decoration: none;
+}
+
+.sale {
+    color: #ff001e !important;
+}
+
+.navbar-toggler-icon {
+    color: #fff !important;
+}
+
+.hero-img {
+    background: url(./img/woman-in-flower-blossoms.jpg)no-repeat center center; 
+    background-size: 100%;
+    width: 100%;
+    height: 450px;
+    background-color: #e6e6e6;
+    padding-top: 350px;
+    margin: 0 auto 50px;
+}
+
+.hero-btn {
+    border: 2px solid #fff;
+    width: 150px;
+    padding: 10px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.hero-btn:hover {
+    background-color: rgba(255, 255, 255, 0.70);
+    border-color: #000;
+    color: #000;
+}
+
+.bottom-padding, .grid, .blurb {
+    margin: 0 auto 50px;
+}
+
+.card {
+    min-width: 200px;
+    text-align: left;
+}
+
+.text-add-on {
+    padding-left: 10px;
+    color: #c793ad;
+    font-style: italic;
+    font-size: 80%;
+}
+
+.store-btn {
+    width: 100%;
+    border: 2px solid #1f1f1f;
+    color: #1f1f1f;
+    background-color: #fff;
+    display: inline-block;
+    padding: 10px;
+}
+
+.store-btn:hover {
+    color: #fff;
+    background-color: #1f1f1f;
+}
+
+.store-img {
+    width: 100%;
+    height: auto;
+}
+
+
+.plus-minus-input {
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .plus-minus-input .input-group-field {
+    text-align: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    max-width: 75px;
+  }
+  
+  .plus-minus-input .input-group-field::-webkit-inner-spin-button,
+  .plus-minus-input .input-group-field ::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+            appearance: none;
+  }
+  
+  .plus-minus-input .input-group-button .circle {
+    border-radius: 10px;
+    padding: 0.25em 0.8em;
+    border: none;
+    color: #fff;
+    background-color: #1f1f1f;
+  }
+  
+.text-left {
+    text-align: left;
+}
+
+.modal p {
+    padding-bottom: 15px;
+}
+
+.swatch {
+    display: inline-block;
+    min-height: 20px;
+    min-width: 20px;
+    margin: 4px;
+}
+
+.gray {
+    background-color: #a3a3a3;
+}
+
+.black {
+    background-color: #1f1f1f;
+}
+
+.maroon {
+    background-color: #941234;
+}
+
+.footer {
+    background-color: #c793ad;
+    margin-top: 150px;
+    padding: 75px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.shopping-cart {
+    position: fixed;
+    right: 15px;
+    top: 10px;
+}
+
+.cart-button {
+    background-color: #c793ad;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    font-size: 25px;
+}
+
